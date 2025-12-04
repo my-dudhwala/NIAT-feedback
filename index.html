@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NIAT Workshops</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: #f5f7fa;
+        color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        width: 100%;
+        background: white;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .header img {
+        height: 70px;
+        margin-bottom: 10px;
+    }
+
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    .profile-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        background: white;
+        width: 260px;
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        transition: 0.2s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 18px rgba(0,0,0,0.14);
+    }
+
+    .card img {
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .card h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+    }
+
+    .card a {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 8px 14px;
+        background: #0A66C2;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 0.9rem;
+    }
+
+    .feedback-btn {
+        display: block;
+        margin: 0 auto 60px auto;
+        padding: 14px 22px;
+        background: #4CAF50;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .feedback-btn:hover {
+        background: #43A047;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <img src="logo.png" alt="NIAT Logo" />
+    <h1>NIAT Workshop Portal</h1>
+</div>
+
+<div class="container">
+    <a class="feedback-btn" href="YOUR_FEEDBACK_FORM_LINK" target="_blank">
+        Submit Feedback
+    </a>
+
+    <h2 class="section-title">Connect With Us</h2>
+
+    <div class="profile-grid">
+
+        <!-- Profile 1 -->
+        <div class="card">
+            <img src="yasar.png" alt="LinkedIn">
+            <h3>Mohammed Yasar Dudhwala</h3>
+            <a href="https://www.linkedin.com/in/my-dudhwala/" target="_blank">View Profile</a>
+        </div>
+
+        <!-- Profile 2 -->
+        <div class="card">
+            <img src="Nandu.png" alt="LinkedIn">
+            <h3>Lingam Nandeeswar</h3>
+            <a href="https://www.linkedin.com/in/lingamnandeeswar/" target="_blank">View Profile</a>
+        </div>
+
+        <!-- Profile 3 -->
+        <div class="card">
+            <img src="linkedin.png" alt="LinkedIn">
+            <h3>HOD Name</h3>
+            <a href="HOD_LINKEDIN_LINK" target="_blank">View Profile</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
